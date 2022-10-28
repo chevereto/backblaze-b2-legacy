@@ -1,6 +1,6 @@
 {
     "name": "chevereto/backblaze-b2-legacy",
-    "description": "An SDK for working with B2 cloud storage.",
+    "description": "An SDK for working with B2 (legacy) cloud storage.",
     "keywords": [
         "b2",
         "storage",
