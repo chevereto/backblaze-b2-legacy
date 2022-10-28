@@ -110,9 +110,7 @@ class File implements \JsonSerializable
         return $this->uploadTimestamp;
     }
 
-    /**
-     * @return array
-     */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->asArray();

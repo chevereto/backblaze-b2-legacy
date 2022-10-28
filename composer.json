@@ -1,8 +1,16 @@
 {
-    "name": "obregonco/backblaze-b2",
+    "name": "chevereto/backblaze-b2-legacy",
     "description": "An SDK for working with B2 cloud storage.",
-    "keywords": ["b2", "storage", "backblaze", "cloud", "filesystem", "backup", "backblaze-b2", "backblaze-api"],
-    "homepage": "https://github.com/obregonco/backblaze-b2",
+    "keywords": [
+        "b2",
+        "storage",
+        "backblaze",
+        "cloud",
+        "filesystem",
+        "backup",
+        "backblaze-b2",
+        "backblaze-api"
+    ],
     "license": "LGPL-3.0-or-later",
     "type": "library",
     "authors": [
@@ -10,32 +18,32 @@
             "name": "Chris White",
             "email": "chris@cwhite.me",
             "homepage": "https://cwhite.me"
-        }, {
+        },
+        {
             "name": "Ahmad Fikrizaman",
             "email": "fikri@runcloud.io",
             "homepage": "https://runcloud.io",
             "role": "CTO"
-        }, {
-		"name": "Ricardo Obregón",
-		"email": "ricardo@obregon.co",
-		"homepage": "http://obregonco",
-		"role": "Founder"
-	}, {
-                "name": "Rick O'Brien",
-                "email": "rick@obregon.co",
-                "homepage": "http://obregonco"
+        },
+        {
+            "name": "Ricardo Obregón",
+            "email": "ricardo@obregon.co",
+            "homepage": "http://obregonco",
+            "role": "Founder"
+        },
+        {
+            "name": "Rick O'Brien",
+            "email": "rick@obregon.co",
+            "homepage": "http://obregonco"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.0",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.5 || ^7.0",
         "illuminate/cache": ">=5.1.0",
         "illuminate/container": ">=5.1.0",
         "illuminate/filesystem": ">=5.1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.8.*"
     },
     "autoload": {
         "psr-4": {

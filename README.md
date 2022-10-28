@@ -1,4 +1,7 @@
-## Backblaze B2 SDK for PHP
+# Backblaze B2 SDK for PHP
+
+> **Note**: This is a fork maintained by Chevereto for supporting Backblaze B2 legacy on PHP 8. It is adviced to migrate to Backblaze B2 S3 Compatible service. Use this project only for supporting legacy systems.
+
 [![Software License](https://img.shields.io/badge/license-LGPL-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Latest Version](https://img.shields.io/github/release/obregonco/backblaze-b2.svg?style=flat-square)](https://github.com/obregonco/backblaze-b2/releases)
 [![Build Status](https://img.shields.io/travis/obregonco/backblaze-b2.svg?style=flat-square)](https://travis-ci.org/obregonco/backblaze-b2)
@@ -73,7 +76,7 @@ $fileContent = $client->download([
 // Delete a file from a bucket. Returns true or false.
 $fileDelete = $client->deleteFileFromArray([
     'FileId' => $file->getId()
-    
+
     // Can also identify the file via bucket and path:
     // 'BucketName' => 'my-special-bucket',
     // 'FileName' => 'path/to/file'
@@ -90,16 +93,12 @@ $fileList = $client->listFilesFromArray([
 Installation is via Composer:
 
 ```bash
-$ composer require obregonco/backblaze-b2
+composer require chevereto/backblaze-b2-legacy
 ```
 
 ## Tests
 
-Tests are run with PHPUnit. After installing PHPUnit via Composer (under development):
-
-```bash
-$ vendor/bin/phpunit
-```
+🤡 No tests here.
 
 ## Contributors
 
