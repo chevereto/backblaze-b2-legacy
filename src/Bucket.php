@@ -17,6 +17,9 @@ class Bucket
     protected $lifecycleRules;
     protected $revision;
     protected $options;
+    // Fix references
+    protected $BucketId;
+    protected $BucketName;
 
     /**
      * Bucket constructor.
@@ -31,12 +34,12 @@ class Bucket
 
     public function getId()
     {
-        return $this->bucketId;
+        return $this->bucketId ?? $this->BucketId;
     }
 
     public function getName()
     {
-        return $this->bucketName;
+        return $this->bucketName ?? $this->BucketName;
     }
 
     public function getType()
