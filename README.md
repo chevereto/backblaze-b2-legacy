@@ -1,6 +1,6 @@
 # Backblaze B2 SDK for PHP
 
-> **Note**: This is a fork maintained by Chevereto for supporting Backblaze B2 legacy on PHP 8. It is adviced to migrate to Backblaze B2 S3 Compatible service. Use this project only for supporting legacy systems.
+> **Note**: This is a fork maintained by Chevereto for supporting Backblaze B2 legacy on PHP 8. It is recommended to migrate to **Backblaze B2 S3 Compatible service**. Use this project only for supporting legacy systems.
 
 [![Software License](https://img.shields.io/badge/license-LGPL-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Latest Version](https://img.shields.io/github/release/obregonco/backblaze-b2.svg?style=flat-square)](https://github.com/obregonco/backblaze-b2/releases)
